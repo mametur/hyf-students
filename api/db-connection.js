@@ -4,6 +4,11 @@ const config = require('../config');
 
 const DB_PATH = path.join(__dirname, '..', config.DB_PATH);
 
-const dbConnection = new sqlite3.Database(DB_PATH);
+const db = new sqlite3.Database(DB_PATH, (err) => {
+	if (err) {
+		return console.error(err.message);
+	}
+	console.log('Connected to the hyf.db SQlite database.');
+});
 
-module.exports = dbConnection;
+module.exports = db;
