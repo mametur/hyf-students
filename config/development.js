@@ -1,4 +1,4 @@
 module.exports = {
-  MODE: 'development',
-  DB_PATH: 'db/chinook.sqlite'
+	MODE: 'development',
+	DB_PATH: 'db/hyf.db',
 };
