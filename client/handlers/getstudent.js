@@ -20,13 +20,14 @@
          classname.innerHTML = `class: ${this.class}`
         
 
-        const renderedmoduls = this.module
-            renderedmoduls.forEach(mode=>{
-                const m = document.createElement('div');
-                m.innerHTML =`model: ${mode}`;
-                m.id = 'mode';
-             container.appendChild(m);
-            })
+        const renderedmoduls = this.module;
+        const m = document.createElement('div');
+        m.innerHTML = 'model:';
+        m.id = 'mode';
+        renderedmoduls.forEach((mode) => {
+            m.innerHTML += ` ${mode}`;
+      });
+     container.appendChild(m);
      container.appendChild(classname);
         return container;
 
