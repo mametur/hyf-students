@@ -4,7 +4,7 @@ export const getArtist =(e)=>{
   e.preventDefault();
   const id = document.getElementById('artist').value;
   
-  fetch(`api/artists/${id}`)
+  fetch(`api/student/${id}`)
   .then(res => res.json())
   .then(data => {
     //console.log(data.Name)

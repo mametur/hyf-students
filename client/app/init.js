@@ -1,3 +1,3 @@
-import { getArtist } from '../handlers/getArtist.js'
+import { getstudent } from '../handlers/getstudent.js'
 
-document.getElementById('submit').addEventListener('click',getArtist)
+document.getElementById('submit').addEventListener('click',getstudent)

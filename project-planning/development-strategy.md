@@ -37,3 +37,25 @@ This user story has been developed through a branch called 'web-page'.
 ### SQLite
 
 - Create tables and records data.
+
+## 2. Get a student by name
+
+**As a user I want to query students by name so that I can see one student information in alphabetical**
+
+This user story has been developed through a branch called 'select-student'.
+
+> Assign to **Gelila**
+
+
+
+### Node.JS&Express.JS
+
+- get the student information from the database
+
+### handlers
+
+- create event handler that retrieve the user input and fetchs the asked data from the database.
+
+### SQLite
+
+- Give the students'information 
