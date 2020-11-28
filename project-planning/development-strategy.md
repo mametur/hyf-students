@@ -59,3 +59,25 @@ This user story has been developed through a branch called 'select-student'.
 ### SQLite
 
 - Give the students'information 
+
+## 3. Get Classes By Module Name
+
+**As a user I want to see a in which classes a specific module is being taught.**
+
+This user story has been developed through a branch called 'show-classes'.
+
+> Assign to **Eltayeb**
+
+### HTML&CSS
+
+- Add text input and search button
+
+### Javascript
+
+- Write getClasses handler.
+- Add event listener.
+
+### Node.js
+
+- Add a route.
+- Write a controller.
